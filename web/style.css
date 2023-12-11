@@ -1,0 +1,15 @@
+
+
+              
+.slide {
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes slide {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(20px);}
+    100% {transform: translateX(0);}
+  }
+              
